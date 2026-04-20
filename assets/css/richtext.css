@@ -1,0 +1,44 @@
+.richtext, .richtext * {
+	font-family: 'Lucida Grande', 'Microsoft Yahei';
+	font-size: 16px;
+	line-height: 1.6em;
+}
+.product-detail{
+	text-align:center;
+}
+.richtext h1, .richtext h2, .richtext h3, .richtext h4, .richtext h5, .richtext h6 {
+	font-weight: bold;
+}
+.richtext img {
+	max-width: 100%;
+	height: initial;
+}
+.richtext table {
+	width: 100%;
+}
+.richtext table tr td {
+	padding: 3px 10px;
+	border: solid 1px #ddd;
+	word-break:break-all;
+	font-size: 13px;
+}
+.richtext table tr td:nth-child(2){
+	text-align:left;
+}
+.richtext table tr {
+	background: #fff;
+}
+.richtext strong {
+	font-weight: bold;
+}
+.richtext em {
+	font-style: italic;
+}
+.richtext p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+.richtext a {
+	text-decoration: underline;
+}
